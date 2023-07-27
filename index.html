@@ -1,0 +1,104 @@
+<!-- felipesalinasmolina/Modulo3_Desafio2_FelipeSalinasMolina -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 2 Modulo 3</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Ejercicio 1 -->
+    <section class="eje1">
+      <div id="eje_1" class="ejercicio1">
+        <img
+          src="assets/img/Captain-America-AOU-Render.webp"
+          alt="Imagen Capitan America"
+        />
+      </div>
+    </section>
+
+    <!-- Ejercicio 2 -->
+    <div class="eje2">
+        <h2>Escoge tus pines, puede llevar máximo 10</h2>
+
+    </div>
+    <section>
+      <div class="pines">
+        <div class="pin">
+          <h1>Elije tus Pines</h1>
+          <img src="assets/img/pin1.jpg" alt="Pin 1 Capitan America" />
+          <input
+            type="number"
+            placeholder="Ingrese la Cantidad de pines"
+            id="cantidadPines1"
+            max="10"
+            min="0"
+          />
+        </div>
+
+        <div class="pin">
+          <h1>Elije tus Pines</h1>
+          <img src="assets/img/pin2.jpg" alt="Pin 2 Capitan America" />
+          <input
+            type="number"
+            placeholder="Ingrese la Cantidad de pines"
+            id="cantidadPines2"
+            max="10"
+            min="0"
+          />
+        </div>
+
+        <div class="pin">
+          <h1>Elije tus Pines</h1>
+          <img src="assets/img/pin3.jpg" alt="Pin 3 Capitan America" />
+          <input
+            type="number"
+            placeholder="Ingrese la Cantidad de pines"
+            id="cantidadPines3"
+            max="10"
+            min="0"
+          />
+        </div>
+
+        <div class="pin">
+          <h1>Elije tus Pines</h1>
+          <img src="assets/img/pin4.webp" alt="Pin 4 Capitan America" />
+          <input
+            type="number"
+            placeholder="Ingrese la Cantidad de pines"
+            id="cantidadPines4"
+            max="10"
+            min="0"
+          />
+        </div>
+      </div>
+    </section>
+    <div class="boton">
+      <br />
+      <h2>Presione para verificar</h2>
+      <br />
+      <button id="verificarPines">Verificar</button>
+      <br />
+     
+      <h2><span id="verificacion"></span></h2>
+    </div>
+
+    <!-- Ejercicio 3 -->
+    <div class="ingreseCodigo">
+    <h2>Ingrese el código</h2>
+</div>
+    <section class="Eje3">
+        <div class="clave">
+            <input type="number" id="a" min="0" max="9">
+            <input type="number" id="b" min="0" max="9">
+            <input type="number" id="c" min="0" max="9">
+        </div>
+    </section>
+    <div class="boton">
+    <button id="vericarCodigo">Verificar clave</button>
+    <h2><span id="avisoCodigo"></span></h2>
+</div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
